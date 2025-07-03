@@ -40,7 +40,7 @@ function HomePage() {
                 Loin des formats commerciaux, il privilégie la densité, l’expérimentation et une narration en spirale.<br /><br />
                 Black Hole Superette est une œuvre qui demande à être explorée lentement, comme un rêve récurrent.
               </p>
-              <a href="/ecouter" className="listen-button">ÉCOUTER</a>
+             
             </div>
             <div className="album-cover">
               <img src="/image/plan.png" alt="Black Hole Superette Album" className="album-image" />
@@ -48,7 +48,15 @@ function HomePage() {
           </div>
         </section>
 
-        {/* SECTION TOURNEE */}
+        <section className="ecouter-section">
+        <div className="ecouter-overlay">
+      <a href="/stream" className="ecouter-button">
+        <span className="arrow">&#9658;</span> ÉCOUTER
+       </a>
+       </div>
+        </section>
+               
+         {/* SECTION TOURNEE */}
         <section className="tour-section">
           <h2 className="tour-title">TOURNÉE</h2>
 
@@ -83,30 +91,37 @@ function HomePage() {
           </div>
         </section>
         <footer className="footer">
-           <div className="footer-content">
-            <div className="footer-links">
-         <div>
-           <p>Aide et support</p>
-          <p>Politique de confidentialité</p>
-          <p>Conditions générales</p>
-        </div>
-        <div>
+  <div className="footer-content">
+    <div className="footer-links">
+      <div>
+        <p>Aide et support</p>
+        <p>Politique de confidentialité</p>
+        <p>Conditions générales</p>
+      </div>
+      <div>
         <p>Cookies</p>
         <p>Ne vendez pas mes informations personnelles</p>
         <p>Inscrivez-vous à la newsletter</p>
       </div>
     </div>
+
     <div className="footer-socials">
-      <a href="#"><img src="/icons/instagram.svg" alt="Instagram" /></a>
-      <a href="#"><img src="/icons/facebook.svg" alt="Facebook" /></a>
-      <a href="#"><img src="/icons/youtube.svg" alt="YouTube" /></a>
-      <a href="#"><img src="/icons/close.svg" alt="Fermer" /></a>
+      <a href="https://www.instagram.com/aesoprockwins/" target='_blank'>
+        <img src="/icon/insta.png" alt="Instagram" />
+      </a>
+      <a href="https://www.youtube.com/@rhymesayers" target='_blank'>
+        <img src="/icon/youtube.png" alt="Youtube" />
+      </a>
+      <a href="https://fr.wikipedia.org/wiki/Aesop_Rock" target='_blank'>
+        <img src="/public/icon/wikipe.png" alt="Wikipedia" />
+      </a>
+      <a href="https://music.apple.com/us/artist/aesop-rock/3858833" target='_blank'>
+        <img src="/public/icon/apple music.png" alt="Apple Music" />
+      </a>
     </div>
   </div>
 </footer>
-
-
-        {/* Optionnel : fond bas ou footer */}
+  {/* Optionnel : fond bas ou footer */}
         <div className="fond-bas"></div>
       </div>
     </div>

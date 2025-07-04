@@ -77,7 +77,7 @@ button:focus-visible {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .footer-links {

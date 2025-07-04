@@ -105,7 +105,7 @@ body {
 
 .album-description {
   font-size: 0.9rem;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #A2A82E;
   max-width: 500px;
 }
@@ -125,12 +125,14 @@ body {
 .tour-section {
   background-color: #1c1c1c;
   padding: 90px 60px;
+  
   color: #fff;
   font-family: 'Share Tech Mono', monospace;
   background-image: url('/image/AB1.png');
   background-size: cover;
   background-repeat: repeat;
   border-top: 2px solid #444;
+  
 }
 
 .tour-title {
@@ -194,7 +196,7 @@ body {
   background-image: url('/image/over.png'); /* à ajouter dans /public/image */
   background-size: cover;
   background-position: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,8 +231,8 @@ body {
 }
 
 .ecouter-button .arrow {
-  margin-right: 0.5rem;
-  font-size: 1.2rem;
+  margin-right: 0.9rem;
+  font-size: 10px;
 }
 
 /* Responsive */

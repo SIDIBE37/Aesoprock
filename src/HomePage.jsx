@@ -33,14 +33,12 @@ function HomePage() {
             <div className="album-text">
               <h2 className="album-title">Black Hole<br />Superette</h2>
               <p className="album-description">
-                <h2>  sortie le 30 mai 2025  </h2> <br></br>
+                <h2>  sortie le 30 mai 2025  </h2> <br />
                 Black Hole Superette est un album concept aussi étrange que fascinant. Aesop Rock y construit un monde parallèle, entre supermarché intersidéral et hallucination urbaine.<br /><br />
                 Chaque morceau est une allée sonore, remplie d’images tordues, de mots rares, de souvenirs flous.<br />
-                Musicalement, l’album mêle production lo-fi, glitches analogiques, beats rugueux et voix nasale reconnaissable entre mille.<br />
-                Loin des formats commerciaux, il privilégie la densité, l’expérimentation et une narration en spirale.<br /><br />
+                Musicalement, l’album mêle production lo-fi, glitches analogiques, beats rugueux et voix nasale reconnaissable entre mille.<br /><br />
                 Black Hole Superette est une œuvre qui demande à être explorée lentement, comme un rêve récurrent.
               </p>
-             
             </div>
             <div className="album-cover">
               <img src="/image/plan.png" alt="Black Hole Superette Album" className="album-image" />
@@ -49,14 +47,14 @@ function HomePage() {
         </section>
 
         <section className="ecouter-section">
-        <div className="ecouter-overlay">
-      <a href="/stream" className="ecouter-button">
-        <span className="arrow">&#9658;</span> ÉCOUTER
-       </a>
-       </div>
+          <div className="ecouter-overlay">
+            <a href="/stream" className="ecouter-button">
+              <span className="arrow">&#9658;</span> ÉCOUTER
+            </a>
+          </div>
         </section>
-               
-         {/* SECTION TOURNEE */}
+
+        {/* SECTION TOURNEE */}
         <section className="tour-section">
           <h2 className="tour-title">TOURNÉE</h2>
 
@@ -64,9 +62,15 @@ function HomePage() {
             <h3>Las Vegas, Nevada</h3>
             <p>T-Mobile Arena</p>
             <ul>
-              <li>16 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
-              <li>18 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
-              <li>19 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
+              <li>16 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.ticketmaster.com/search?q=aesop+rock" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
+              <li>18 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.seetickets.com/fr/?" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
+              <li>19 Juillet 2025 <span>&gt;</span> 
+                <a href="https://dice.fm/" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
             </ul>
           </div>
 
@@ -74,9 +78,15 @@ function HomePage() {
             <h3>Paris, France</h3>
             <p>Accor Arena</p>
             <ul>
-              <li>09 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
-              <li>10 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
-              <li>12 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
+              <li>09 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.fnacspectacles.com/place-spectacle/recherche?q=aesop+rock" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
+              <li>10 Juillet 2025 <span>&gt;</span> 
+                <a href="https://dice.fm/" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
+              <li>12 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.cdiscount.com/" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
             </ul>
           </div>
 
@@ -84,48 +94,54 @@ function HomePage() {
             <h3>Los Angeles, Californie</h3>
             <p>Walt Disney Concert Hall</p>
             <ul>
-              <li>09 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
-              <li>10 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
-              <li>12 Juillet 2025 <span>&gt;</span> <a href="/billets">BILLETS</a></li>
+              <li>09 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.ticketmaster.com/search?q=aesop+rock+los+angeles" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
+              <li>10 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.ticketmaster.com/search?q=aesop+rock+los+angeles" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
+              <li>12 Juillet 2025 <span>&gt;</span> 
+                <a href="https://www.ticketmaster.com/search?q=aesop+rock+los+angeles" target="_blank" rel="noopener noreferrer">BILLETS</a>
+              </li>
             </ul>
           </div>
         </section>
-        <footer className="footer">
-  <div className="footer-content">
-    <div className="footer-links">
-      <div>
-        <p>Aide et support</p>
-        <p>Politique de confidentialité</p>
-        <p>Conditions générales</p>
-      </div>
-      <div>
-        <p>Cookies</p>
-        <p>Ne vendez pas mes informations personnelles</p>
-        <p>Inscrivez-vous à la newsletter</p>
-      </div>
-    </div>
 
-    <div className="footer-socials">
-      <a href="https://www.instagram.com/aesoprockwins/" target='_blank'>
-        <img src="/icon/insta.png" alt="Instagram" />
-      </a>
-      <a href="https://www.youtube.com/@rhymesayers" target='_blank'>
-        <img src="/icon/youtube.png" alt="Youtube" />
-      </a>
-      <a href="https://fr.wikipedia.org/wiki/Aesop_Rock" target='_blank'>
-        <img src="/public/icon/wikipe.png" alt="Wikipedia" />
-      </a>
-      <a href="https://music.apple.com/us/artist/aesop-rock/3858833" target='_blank'>
-        <img src="/public/icon/apple music.png" alt="Apple Music" />
-      </a>
-    </div>
-  </div>
-</footer>
-  {/* Optionnel : fond bas ou footer */}
+        <footer className="footer">
+          <div className="footer-content">
+            <div className="footer-links">
+              <div>
+                <p>Aide et support</p>
+                <p>Politique de confidentialité</p>
+                <p>Conditions générales</p>
+              </div>
+              <div>
+                <p>Cookies</p>
+                <p>Ne vendez pas mes informations personnelles</p>
+                <p>Inscrivez-vous à la newsletter</p>
+              </div>
+            </div>
+
+            <div className="footer-socials">
+              <a href="https://www.instagram.com/aesoprockwins/" target="_blank">
+                <img src="/icon/insta.png" alt="Instagram" />
+              </a>
+              <a href="https://www.youtube.com/@rhymesayers" target="_blank">
+                <img src="/icon/youtube.png" alt="Youtube" />
+              </a>
+              <a href="https://fr.wikipedia.org/wiki/Aesop_Rock" target="_blank">
+                <img src="/public/icon/wikipe.png" alt="Wikipedia" />
+              </a>
+              <a href="https://music.apple.com/us/artist/aesop-rock/3858833" target="_blank">
+                <img src="/public/icon/apple music.png" alt="Apple Music" />
+              </a>
+            </div>
+          </div>
+        </footer>
+
         <div className="fond-bas"></div>
       </div>
     </div>
-    
   );
 }
 
